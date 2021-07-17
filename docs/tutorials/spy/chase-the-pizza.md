@@ -22,9 +22,8 @@ Add code to ``||sprites:create a sprite||`` a set it to a variable name ``||vari
 ``||sprites:Player||`` for the ``||sprites:sprite kind||``.
 
 ```spy
-let mySprite: Sprite = null
 scene.setBackgroundColor(7)
-mySprite = sprites.create(img`
+let mySprite = sprites.create(img`
 . . . . . . . . . . . . . . . .
 . . . . . . . . . . . . . . . .
 . . . . . . . . . . . . . . . .
@@ -80,7 +79,7 @@ controller.moveSprite(mySprite)
 
 ## Step 5
 
-Just like with ``||variables:mySprite||``, ``||create a sprite||`` again and set it to the a variable named
+Just like with ``||variables:mySprite||``, ``||sprites:create a sprite||`` again and set it to the a variable named
 ``||variables:pizza||``. This time, set the ``||sprites:sprite kind||`` to ``||sprites:food||``. This will
 be the **pizza** sprite in our game.
 
@@ -144,7 +143,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 
 ## Step 8
 
-When our ``||sprites:Player||`` overlaps with the ``||variables:pizza||`` sprite, let’s add a point to our game score. Pun in the code to ``||info:change score by||`` 1`.
+When our ``||sprites:Player||`` overlaps with the ``||variables:pizza||`` sprite, let’s add a point to our game score. Pun in the code to ``||info:change score by||`` `1`.
 
 ```spy
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
