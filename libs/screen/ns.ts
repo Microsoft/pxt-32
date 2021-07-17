@@ -1,5 +1,5 @@
 
-//% color="#a5b1c2"
+//% color="#647894"
 namespace images {
 
 }

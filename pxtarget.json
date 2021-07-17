@@ -518,13 +518,13 @@
             }
         },
         "blockColors": {
-            "loops": "#20BF6B",
-            "logic": "#45AAF2",
-            "math": "#A55EEA",
-            "variables": "#EC3B59",
-            "text": "#F5D547",
-            "arrays": "#FF8F08",
-            "functions": "#1446A0"
+            "loops": "#17884C",
+            "logic": "#0B609D",
+            "math": "#9B4DE8",
+            "variables": "#E9183C",
+            "text": "#8D7408",
+            "arrays": "#B36200",
+            "functions": "#0D3277"
         },
         "simAnimationEnter": "fly right in",
         "simAnimationExit": "fly right out",

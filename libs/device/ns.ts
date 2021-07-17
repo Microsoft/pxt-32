@@ -17,22 +17,22 @@ namespace scene {
 
 }
 
-//% color="#cf6a87"
+//% color="#C54C6F"
 namespace info {
 
 }
 
-//% color=#E30FC0
+//% color="#D80EB7"
 namespace music {
 
 }
 
-//% color=#B09EFF
+//% color="#7758FF"
 namespace player {
 
 }
 
-//% color=#FF5722 weight=90 advanced=true
+//% color="#DF3600" weight=90 advanced=true
 namespace control {
 
 }
