@@ -1,0 +1,33 @@
+{
+    "name": "hw---pd",
+    "description": "PlayDate by Panic",
+    "files": [
+        "keys.cpp",
+        "config.ts",
+        "device.d.ts"
+    ],
+    "card": {
+        "name": "PD",
+        "description": "PlayDate by Panic",
+        "learnMoreUrl": "https://playdate.info",
+        "cardType": "hw",
+        "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAB4BAMAAACHjORcAAAAD1BMVEX/gTX///8knKOkg58AAADai7jeAAAB3UlEQVRo3u2Wi3HDIAxAzQaWNhArNBuk+89U9ImNHahdrCZOgs7Hid9DEmAxfDnL0IEd+EDg93deqhwBXgCuWalyfXdgipkvMAEUKJsiC3gBpxCcDsiOXu1UOgAZYpjLpB06NpdXAzrc5XxTbrrH1VscnA58V6BmFPc/tnuSOn71zg0sJPr+WOrADuzADnwxYHSWDvxUIM4qxQj33QTSLAoByjhUZQuISHlV1iCZnj5TpBExUm4hcHcqb59ahwLD9XKoHFN0LNkkA3IHGzOtPbkRbeFZALiZVBGyKrbyDJSpBkSOkVmIsWwhTqaaNzmQXY65y+IAoMS96HLqR/Eg25R+sN8SSPL6R0fg+qaeEAhywNuB5A7ENuB657JtbYshxioQvYHgBIRJsNB4CAj3uYeOAdEbCO5AfLqFfNgAPGNYyO7tuwxg+TkurCyew11Ayc/2BKGNm7IfSBRrQGwC6tAiMLYBYw2IDcA5/LTxx94HrP/wqw/TxwKheMkOAP8iHXhC4P6s15/ETwZ2+UcJi9pY73okMMAwjlzax5SgLVyO1njrUoUH1GQMAwQ2Jin8AU8Koic1VZddWuUBvwDHYZ4FbJ8Bkxmw7toGBrFhdlk8ShHj9jDHYaHIgM+WH/pHX7EAVIxFAAAAAElFTkSuQmCC"
+    },
+    "compileServiceVariant": "playdate",
+    "dependencies": {
+        "core---playdate": "file:../core---playdate",
+        "mixer---none": "file:../mixer---none",
+        "screen---playdate": "file:../screen---playdate",
+        "settings---none": "file:../settings---none",
+        "controller---none": "file:../controller---none",
+        "game": "file:../game"
+    },
+    "public": true,
+    "skipLocalization": true,
+    "additionalFilePath": "../hw",
+    "yotta": {},
+    "experimentalHw": true,
+    "dalDTS": {
+        "corePackage": "../core---playdate"
+    }
+}

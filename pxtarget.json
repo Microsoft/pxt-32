@@ -366,6 +366,20 @@
                 "serviceId": "rpi"
             }
         },
+        "playdate": {
+            "compile": {
+                "hasHex": true,
+                "useELF": true,
+                "useUF2": false,
+                "flashCodeAlign": 256,
+                "webUSB": false
+            },
+            "compileService": {
+                "buildEngine": "dockermake",
+                "dockerImage": "pext/yotta:latest",
+                "serviceId": "playdate"
+            }
+        },
         "vm": {
             "compile": {
                 "hasHex": true,
