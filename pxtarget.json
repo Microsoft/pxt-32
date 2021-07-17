@@ -454,6 +454,8 @@
         "cardLogo": "./static/logo.svg",
         "portraitLogo": "./static/logo.svg",
         "footerLogo": "./static/logo.svg",
+        "thumbLogo": "./static/arcade-logo.png",
+        "leanShare": true,
         "organization": "Microsoft MakeCode",
         "organizationText": "MakeCode Arcade",
         "organizationShortText": "MakeCode",

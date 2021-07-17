@@ -1,0 +1,114 @@
+body#root {
+    font-size: 12pt;
+    display: flex;
+    flex-direction: column;
+}
+
+body#root {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+#abuse-message {
+    padding: 0 !important;
+    margin-bottom: 0.2em;
+}
+
+.abuse.content {
+    color: #333;
+    padding: 0.5rem;
+}
+
+/* fix for iOS; see https://github.com/PierBover/ios-iframe-fix */
+#wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+}
+
+#wrap iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#splash {
+    text-align: center;
+    position: relative;
+}
+
+#loading, #abusemodal {
+    background: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+
+#loading h2 {
+    font-size: 3em;
+    margin: 5em 0;
+}
+
+#abusemodal {
+    text-align: center;
+    padding: 3em 0;
+}
+
+#abusemodal label {
+    display: block;
+    margin: 0.5em 0;
+}
+
+#abusemodal textarea {
+    width: 30em;
+    height: 5em;
+}
+
+[data-state="loading"] #loading {
+    display: block;
+}
+
+[data-state="run"] #splash {
+    display: none;
+}
+
+#wrap {
+    display: none;
+}
+
+[data-state="run"] #wrap {
+    display: block;
+}
+
+#play {
+    border: none;
+    background: #f00;
+    color: white;
+    font-size: 2em;
+    padding: 0.2em 1em;
+    margin: 1em;
+}
+
+#thumb {
+    width: 320px;
+    height: 240px;
+    image-rendering: pixelated;
+}
